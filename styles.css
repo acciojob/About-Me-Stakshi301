@@ -1,1 +1,95 @@
+.main{
+	background-color:lightgrey;
+	padding:10px;
+	margin:10px;
+	height:230px;
+}
 
+.about_me{
+	width:100%;
+	display:flex;
+	/* justify-content:space-between; */
+	/* padding:10px;
+	margin:10px; */
+	/* background-color:yellow; */
+	font-size:12px;
+}
+
+.details{
+	height:70px;
+	display:flex;
+	/* background-color:green; */
+}
+.name{
+	display:flex;
+	flex-direction:column;
+	/* background-color:red; */
+	padding-right:15px;
+}
+
+.image img{
+	height:95px;
+	width:100px;
+	padding-right:15px;
+}
+
+/* .skills{
+	position:relative;
+	bottom:100px;
+	width:60%;
+} */
+  .skills-container {
+	  position:relative;
+	  bottom:150px;
+      max-width: 230px;
+	  height:auto;
+      /* margin: 20px auto; */
+      font-family: Arial, sans-serif;
+	  line-height:0.5;
+    }
+    .skills-container h2 {
+      text-align: left;
+      font-size: 12px;
+      /* margin-bottom: 10px; */
+    }
+
+    /* Style for each skill row */
+    .skill-row {
+      /* display: flex; */
+      align-items: center;
+      /* margin-bottom: 20px; */
+    }
+    .skill-icon {
+      font-size: 10px;
+      /* margin-right: 8px; */
+    }
+    .skill-name {
+      /* flex: 1; */
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+    }
+
+.skill-name img{
+	height:25px;
+}
+
+    /* Progress bar styles */
+    .progress-bar-container {
+      /* flex: 2; */
+      /* margin: 0 10px; */
+      background-color: #e0e0e0;
+      border-radius: 10px;
+      height: 5px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 90%;
+      background-color: #007bff;
+    }
+    .progress-percentage {
+		font-size:10px;
+      position:relative;
+		left:90%;
+		bottom:30px;
+    }
